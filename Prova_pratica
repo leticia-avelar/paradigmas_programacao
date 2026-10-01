@@ -1,0 +1,46 @@
+nome = "Leticia" #string
+idade = 25     #inteiro
+nota = 8.5     #float
+
+#Paradigma funcional
+
+#função 1 - recebe uma string
+def mostrar_nome (nome):
+    return nome
+
+
+#função 2 - recebe um inteiro
+def verificar_idade(idade):
+    return idade
+
+#função 3 - calcula a média das notas
+def calcular_media (nota1,nota2,nota3):
+    return (nota1+nota2+nota3)/3
+
+
+#Paradigma Imperativo
+
+#sequencia de comandos e atribuições de valores
+nota1 = 7.0
+nota2 = 8.0
+nota3 = 9.0
+
+nome_resultado = mostrar_nome(nome)
+idade_resultado = verificar_idade(idade)
+
+#Chamada da função e armazenamento do resultado
+media = calcular_media(nota1,nota2,nota3)
+
+#estrutura de decisão
+
+if media >= 7:
+    resultado = "aprovado"
+else:
+    resultado = "reprovado"
+
+#Saida de Dados
+
+print ("Aluno:",nome_resultado)
+print ("idade:",idade_resultado)
+print ("Media:",media)
+print ("resultado:",resultado)
